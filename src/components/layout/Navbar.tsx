@@ -3,10 +3,12 @@
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
-import { Globe, PlayCircle, Search, Shield, User } from 'lucide-react';
+import { Globe, PlayCircle, Search } from 'lucide-react';
 import { useState } from 'react';
 
 export function Navbar({ isAdmin = false, isLoggedIn = false }: { isAdmin?: boolean; isLoggedIn?: boolean }) {
+  void isAdmin;
+  void isLoggedIn;
   const t = useTranslations('nav');
   const locale = useLocale();
   const router = useRouter();
@@ -60,33 +62,6 @@ export function Navbar({ isAdmin = false, isLoggedIn = false }: { isAdmin?: bool
             <Globe className="h-3.5 w-3.5 text-sky-400" />
             {locale === 'en' ? 'မြန်မာ' : 'EN'}
           </button>
-
-          {isAdmin && (
-            <Link
-              href="/admin"
-              className="flex items-center gap-1 rounded-full bg-violet-600/20 border border-violet-500/40 px-3 py-1.5 text-xs text-violet-300 hover:bg-violet-600/30"
-            >
-              <Shield className="h-3.5 w-3.5" />
-              {t('admin')}
-            </Link>
-          )}
-
-          {isLoggedIn ? (
-            <Link
-              href="/dashboard"
-              className="flex items-center gap-1.5 rounded-full bg-bg-card border border-white/10 px-3 py-1.5 hover:border-violet-500"
-            >
-              <User className="h-4 w-4" />
-              {t('dashboard')}
-            </Link>
-          ) : (
-            <Link
-              href="/login"
-              className="rounded-full bg-violet-600 px-4 py-1.5 font-medium text-white hover:bg-violet-500 transition"
-            >
-              {t('login')}
-            </Link>
-          )}
         </nav>
       </div>
     </header>
