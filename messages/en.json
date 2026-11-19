@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Home",
+    "library": "Video Library",
+    "categories": "Categories",
+    "dashboard": "Dashboard",
+    "admin": "Admin Panel",
+    "login": "Sign In",
+    "register": "Create Account",
+    "logout": "Sign Out",
+    "searchPlaceholder": "Search AI videos, tags, categories..."
+  },
+  "hero": {
+    "badge": "AI-GENERATED CINEMA",
+    "title": "Experience Next-Generation AI Streaming",
+    "subtitle": "Discover curated AI animations, short films, sci-fi worlds, and experimental cinema in adaptive HD.",
+    "watchNow": "Watch Featured",
+    "browseLibrary": "Browse Library"
+  },
+  "sections": {
+    "featured": "Featured AI Showcase",
+    "trending": "Trending Now",
+    "latest": "Latest Uploads",
+    "categories": "Explore Categories",
+    "aiDisclosure": "AI-Generated Content"
+  },
+  "auth": {
+    "loginTitle": "Sign in to CHILL MALL",
+    "registerTitle": "Create your CHILL MALL account",
+    "email": "Email Address",
+    "password": "Password",
+    "name": "Full Name",
+    "submitLogin": "Sign In",
+    "submitRegister": "Create Account"
+  },
+  "dashboard": {
+    "title": "Client Dashboard",
+    "overview": "Overview",
+    "continueWatching": "Continue Watching",
+    "history": "Watch History",
+    "favorites": "Favorites",
+    "playlists": "My Playlists",
+    "liked": "Liked Videos",
+    "settings": "Account Settings",
+    "security": "Security"
+  },
+  "admin": {
+    "title": "Admin Command Center",
+    "overview": "Overview",
+    "videos": "Video Management",
+    "upload": "Upload Video",
+    "storage": "Hybrid Storage",
+    "ads": "AdSense & Ads",
+    "users": "User Management",
+    "analytics": "Analytics",
+    "backup": "Backup & Restore",
+    "revenueNotConnected": "Revenue reporting is not connected."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "dmca": "DMCA Policy",
+    "aiDisclaimer": "AI Content Disclaimer"
+  }
+}
